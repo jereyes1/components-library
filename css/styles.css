@@ -1,0 +1,19 @@
+header h1 {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  color: #a87e86;
+  outline: 5px dotted;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+
+  list-style-type: none;
+  margin: 0;
+}
+
+.container__item--right {
+  margin-left: auto;
+}
