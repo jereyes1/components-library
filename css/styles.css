@@ -1,19 +1,46 @@
 header h1 {
-  margin: 0 auto;
+  margin: 1 auto;
   padding: 0 auto;
   text-align: center;
   color: #a87e86;
   outline: 5px dotted;
 }
 
+h2 {
+  margin-top: 1;
+  margin-bottom: 0;
+  text-align: center;
+  color: #f5b7b1;
+}
 .container {
   align-items: center;
   display: flex;
-
   list-style-type: none;
   margin: 0;
+  background: #a87e86;
+  padding: .50rem;
 }
 
 .container__item--right {
   margin-left: auto;
+}
+
+.logo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_1 {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  background: #a87e86;
+  padding: .25rem;
+}
+
+hr {
+   border: dashed 2px;
+   color: deeppink;
 }
