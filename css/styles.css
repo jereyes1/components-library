@@ -25,10 +25,11 @@ h2 {
   margin-left: auto;
 }
 
-.logo img {
+.logo{
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin: 0 auto;
+
 }
 
 .container_1 {
@@ -67,6 +68,9 @@ hr {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+.label-circle:hover {
+  border-color: transparent transparent transparent #404040;
+}
 
 button:hover {
   background-color: yellow;
@@ -84,23 +88,16 @@ button:hover {
 
 .button__pause {
   display: block;
-  box-sizing: border-box;
-  width: 0;
-  height: 24px;
   border-color: transparent transparent transparent #202020;
   transition: 100ms all ease;
   cursor: pointer;
   border-style: double;
   border-width: 0px 0 0px 14px;
   margin-top: 5px;
+  margin-left: 8px;
   font-size: 22px;
-
-}
-div.button__pause {
-  position: absolute;
-  right: 280px; /*most likely to change*/
-  width: 200px;
   height: 22px;
+
 }
 
 .button__pause:hover {
@@ -151,11 +148,10 @@ div.button__pause {
 }
 
 .text {
-  padding-top: 2rem;
-  transform: translate(50%,-50%);
+  padding-top: 0rem;
   text-transform: uppercase;
   font-family: verdana;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   color: #; /*default black*/
   text-shadow: 1px 1px 1px #919191,
